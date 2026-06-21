@@ -1,0 +1,693 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fixed-vdo{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.fixed-vdo nav{
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 999;
+    height: 12%;
+    width: 100%;
+   margin-top: -2%;
+   
+   
+}
+
+nav button{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-size: 35;
+    border:none;
+    transform: scaleX(-1);
+}
+.links{
+    margin-left: 18%;
+    margin-top: -4%;
+}
+.tools{
+    margin-left: 68%;
+    margin-top: -3%;
+}
+
+nav select{
+    
+    color: rgb(218, 212, 212);
+    background-color: black;
+    padding: 10px;
+    border: none;
+    font-size: 19;
+}
+.tata{
+    text-align: right;
+    
+    margin-top: -3%;
+}
+.fixed-vdo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    z-index: -1;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.hero button{
+    padding: 1.2%;
+    border-radius: 31px;
+    width: 11.7%;
+    border: none;
+    color: white;
+    background-color: rgb(27, 117, 219);
+    font-size: 20;
+    margin-left: 65%;
+    margin-top:44.1%;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+    position: absolute;
+}
+.about h1{
+    font-size: 53;
+    font-weight: 380;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.about .content1{
+    height: 78%;
+    width: 28%;
+    background-color:white;
+position: relative;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.content1 img{
+    border-radius: 2%;
+    position: absolute;
+    top:0%;
+width: 100%;
+height: 40%;
+}
+.content1 h2{
+    position: absolute;
+    top:42%;
+    font-size: 46;
+    font-weight: 380;
+    
+}
+.content1 p{
+    
+    font-size: 21;
+    font-weight: 400;
+    position: absolute;
+    top:66%;
+}
+.about .content2{
+    height: 78%;
+    width: 28%;
+    background-color:white;
+    margin-left: 36%;
+   margin-top: -37.5%;
+    position: relative;
+}
+.content2 img{
+    border-radius: 2%;
+    position: absolute;
+    top:0%;
+height: 40%;
+width: 100%;
+}
+.content2 h2{
+    font-size: 42;
+    font-weight: 380;
+     position: absolute;
+    top:42%;
+}
+.content2 p{
+     position: absolute;
+    top:66%;
+    font-size: 21;
+    font-weight: 400;
+}
+.about .content3{
+    height: 78%;
+    width: 28%;
+    background-color:white;
+    margin-left: 66%;
+   margin-top: -37.5%;
+    position: relative;
+}
+.content3 img{
+    border-radius: 2%;
+    position: absolute;
+    top:0%;
+height: 40%;
+width: 100%;
+}
+.content3 h2{
+    font-size: 42;
+    font-weight: 380;
+     position: absolute;
+    top:42%;
+}
+.content3 p{
+     position: absolute;
+    top:66%;
+    font-size: 21;
+    font-weight: 400;
+}
+.services{
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 0%;
+}
+.services .industries{
+    width: 28.8%;
+    height: 62%;
+    background-color: rgb(55, 54, 54);
+    position: relative;
+    margin-left: 5%;
+    margin-top: 4%;
+    color: white;
+}
+.services h1{
+    font-size: 43;
+    font-weight: 380;
+    margin-top: 3.5%;
+    margin-left: 5%;
+
+}
+.services .industries img{
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    top: 0%;
+
+}
+.industries h2{
+    position:absolute;
+    top:57%;
+    left: 3%;
+font-size: 36;
+    font-weight: 380;
+}
+.industries p{
+    position: absolute;
+    top:72%;
+    left:3%;
+    font-size: 21;
+    font-weight: 400;
+}
+.services .serv{
+    width: 28.8%;
+    height: 62%;
+    background-color: rgb(55, 54, 54);
+    position: relative;
+    margin-left: 36%;
+    margin-top: -29.8%;
+
+
+}
+.serv img{
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    top: 0%;
+}
+.serv h2{
+    position:absolute;
+    top:57%;
+    left: 3%;
+font-size: 36;
+    font-weight: 380;
+}
+.serv p{
+    position: absolute;
+    top:72%;
+    left:3%;
+    font-size: 21;
+    font-weight: 400;
+}
+.services .pro{
+    width: 28.8%;
+    height: 62%;
+    background-color: rgb(55, 54, 54);
+    position: relative;
+    margin-left: 68%;
+    margin-top: -29.8%;
+
+
+}
+.pro img{
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    top: 0%;
+}
+.pro h2{
+    position:absolute;
+    top:57%;
+    left: 3%;
+font-size: 36;
+    font-weight: 380;
+}
+.pro p{
+    position: absolute;
+    top:72%;
+    left:3%;
+    font-size: 21;
+    font-weight: 400;
+}
+.stories{
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.stories h1{
+    font-size: 35;
+   
+    position: absolute;
+    top:5%;
+}
+.stories .s1{
+    height: 75%;
+    width: 29%;
+    background-color: crimson;
+    position:absolute;
+    top:25%;
+    left:4%;
+    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/equi-card?wid=665&hei=635&dpr=off");
+    background-position: center;
+    background-size: cover;
+}
+.stories .s1 .text1{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.527);
+    position: absolute;
+    bottom:2%;
+    color: white;
+    padding-left: 5%;
+}
+.s1 .text1 h2{
+    font-size: 40;
+    font-weight: 400;
+   padding-top: 15%;
+   padding-bottom: 5%;
+
+}
+.s1 .text1 p{
+    font-size: 20;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+.s1 .text1 h4{
+    font-size: 18;
+    letter-spacing: 1;
+}
+.stories .s2{
+    height: 75%;
+    width: 29%;
+    background-color: crimson;
+    position:absolute;
+    top:25%;
+    left:35.5%;
+    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/colruyt-card:Small?wid=719&hei=851&dpr=off");
+    background-position: center;
+    background-size: cover;
+}
+.stories .s2 .text2{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.527);
+    position: absolute;
+    bottom:2%;
+    color: white;
+    padding-left: 5%;
+}
+.s2 .text2 h2{
+    font-size: 40;
+    font-weight: 400;
+   padding-top: 15%;
+   padding-bottom: 5%;
+
+}
+.s2 .text2 p{
+    font-size: 20;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+.s2 .text2 h4{
+    font-size: 18;
+    letter-spacing: 1;
+}
+.stories .s3 .text3{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.527);
+    position: absolute;
+    bottom:2%;
+    color: white;
+padding-left: 5%;
+}
+.s3 .text3 h2{
+    font-size: 40;
+    font-weight: 400;
+   padding-top: 15%;
+   padding-bottom: 5%;
+
+}
+.s3 .text3 p{
+    font-size: 20;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+.s3 .text3 h4{
+    font-size: 18;
+    letter-spacing: 1;
+}
+.stories .s3{
+    height: 75%;
+    width: 29%;
+    background-color: crimson;
+    position:absolute;
+    top:25%;
+    left:67%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/merlin-card-upd:Small?wid=645&hei=763&dpr=off");
+}
+.meet{
+    
+    height: 120%;width: 100%;
+    background-color: rgb(221, 220, 220);
+    position: relative;
+}
+.meet h2{
+    position: absolute;
+    top:5%;
+    left:5%;
+    font-size: 40;
+    color: black;
+    font-weight: 400;
+}
+.meet .box1{
+    height: 80%;
+    width: 55%;
+    background-color: white;
+   position: absolute;
+   top:15%;
+    left:5%;
+    border-radius: 6px;
+}
+.meet .box1 h1{
+    z-index: 999;
+    color: black;
+    position: absolute;
+    top:-4.5%;
+    left:4%;
+    font-weight: 350;
+}
+.meet .box1 #blue{
+color: rgb(75, 154, 197);
+z-index: 999;
+position: absolute;
+left: -15%;
+top: 50%;
+transform: rotate(-90deg);
+font-size: 38;
+}
+.meet .box1 h3{
+    position: absolute;
+    top:10%;
+    left:10%;
+    color: black;
+    z-index:999;
+    font-size: 30;
+    font-weight: 380;
+    
+}
+.meet .box1 p{
+    position: absolute;
+    bottom: 12%;
+    left:10%;
+    z-index: 999;
+    font-weight: 380;
+    color: black;
+    font-size: 21px;
+    line-height: 1.6;
+}
+.meet #detail1{
+    bottom: 40%;
+    color: rgb(75, 154, 197);
+    position: absolute;
+    right: 20%;
+    transform: rotate(-90deg);
+    font-weight: 380;
+    font-size: 38;
+    
+}
+.meet #detail2{
+    bottom: 39%;
+    color: rgb(75, 154, 197);
+    position: absolute;
+    right: 16%;
+    transform: rotate(-90deg);
+    font-weight: 380;
+    font-size: 38;
+}
+.meet #detail3{
+    bottom: 39%;
+    color: rgb(75, 154, 197);
+    position: absolute;
+    right: 12%;
+    transform: rotate(-90deg);
+    font-weight: 380;
+    font-size: 38;
+}
+.meet #detail4{
+    bottom: 35%;
+    color: rgb(75, 154, 197);
+    position: absolute;
+    right: 10%;
+    transform: rotate(-90deg);
+    font-weight: 380;
+    font-size: 38;
+}
+.meet .box1 .box2{
+    height: 52%;
+    width: 80%;
+    background-color: darksalmon;
+    position: absolute;
+    top:20%;
+    left:10%;
+    border-radius: 6px;
+    background-image: url("https://www.tcs.com/content/dam/global-tcs/en/images/who-we-are/events/tcs-at-zenithlive-2026-web.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.meet .flag{
+    padding-top: 10%;
+    padding-left: 65%;
+    align-items:center;
+   
+}
+.news{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+   position: relative;
+}
+.news h1{
+    color: black;
+    position: absolute;
+    top: auto;
+    font-weight: 400;
+}
+
+.news .n1{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(155, 77, 77);
+   position: absolute;
+   top:20%;
+   left: 10%;
+  border-radius: 10px;
+  background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/spotlight-withimage-01");
+  background-position:center;
+  background-size: cover;
+}
+.news .n2{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(155, 77, 77);
+   position: absolute;
+   top:20%;
+   left: 35%;
+   border-radius: 10px;
+  background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/spotlight-withimage-02");
+  background-position:center;
+  background-size: cover;
+}
+.news .n3{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(155, 77, 77);
+   position: absolute;
+   top:20%;
+   left: 60%;
+   border-radius: 10px;
+  background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/spotlight-withimage-03");
+  background-position:center;
+  background-size: cover;
+}
+.news .n4{
+    height: 70%;
+    width: 15%;
+    background-color: rgb(155, 77, 77);
+   position: absolute;
+   top:20%;
+   left: 85%;
+    border-radius: 10px;
+  background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/spotlight-withimage-04");
+  background-position:center;
+  background-size: cover;
+}
+.news .n1 h1{
+    z-index: 999;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    font-weight: 380;
+    font-size: 35;
+}
+.news .n2 h1{
+    z-index: 999;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    font-weight: 380;
+    font-size: 35;
+}
+.news .n3 h1{
+    z-index: 999;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    font-weight: 380;
+    font-size: 35;
+}
+.news .n4 h1{
+    z-index: 999;
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    font-weight: 380;
+    font-size: 35;
+}
+.l2{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    align-items: center;
+}
+.l2 h3{
+   
+    position:absolute;
+    top:8%;
+    left: 10%;
+}
+.l2 h1{
+    position: absolute;
+    left: 5%;
+    top:5%;
+}
+.l2 p{
+    position: absolute;
+    left: 10%;
+    top:28%;
+    font-size: 20;
+    line-height: 2;
+}
+.l2 .box{
+    height: 50%;
+    width: 37%;
+    border-radius: 3%;
+    background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/27-3-26-TCSMarathon-career?wid=592&hei=333&dpr=off");
+position: absolute;
+right: 10%;
+top: 25%;
+}
+.l2 a{
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-size: 23;
+    font-weight: 400;
+    
+}
+
+
+.l3{
+    height: 80%;width: 100%;
+    background-color:rgb(35, 36, 35);
+    text-align: center;
+    padding-top: 5%;
+}
+.l3 h1{
+    font-size: 60;
+    text-align: center;
+}
+.l3 p{
+    font-size: 20.2;
+    text-align: center;
+    margin-left: 5%;
+}
+.l3 button{
+   background-color: transparent;
+   border-color: white;
+   color:white;
+   width: 12%;
+   margin-left: 5%;
+   margin-top: 2%;
+   padding: 18px;
+   border-radius: 30px;
+   font-size: 20;
+}
+footer{
+    background-color: black;
+  border-top: white 2px solid;
+}
