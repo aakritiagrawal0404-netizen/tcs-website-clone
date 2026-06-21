@@ -10,6 +10,19 @@ A responsive clone of the Tata Consultancy Services (TCS) website built using HT
 
 - HTML5
 - CSS3
+## Screenshots
+
+### Homepage Preview
+![Homepage](Screenshot%20(72).png)
+
+### Services Section
+![Services](Screenshot%20(73).png)
+
+### Customer Stories Section
+![Customer Stories](Screenshot%20(74).png)
+
+### News & Insights
+![News & Insights](Screenshot%20(76).png)
 
 ## Features
 
